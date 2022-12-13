@@ -1,11 +1,11 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import '../../App.css';
 
 const Navbar = () => {
   return (
-    <div className="navbar navbar-expand-sm navbar-dark bg-info">
-      <div className="container-fluid">
-        <span className="navbar-brand">Трекер калорий</span>
-      </div>
+    <div className="container-fluid">
+      <Link className="navbar-brand" to='/'>Трекер калорий</Link>
     </div>
   );
 };
